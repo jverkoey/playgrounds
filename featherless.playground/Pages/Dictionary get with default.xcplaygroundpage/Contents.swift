@@ -42,6 +42,8 @@ Some interesting things going on here:
   and `SomeObject()` will be implicitly wrapped in a closure for evaluation by the function at a later point. Use this feature sparingly and with great care.
 
 Now we can write the following:
+
+[@autoclosure]: https://developer.apple.com/swift/blog/?id=4
 */
 
 struct Device {
@@ -184,9 +186,6 @@ Much to my surprise, observing the logs revealed:
 
 - A drawback to the subscript solution is that autocomplete will not help.
 - [View the final implementation](https://gist.github.com/jverkoey/0b993932ddc9bd69120d).
-
-[Dictionary]: http://swiftdoc.org/v2.0/type/Dictionary/
-[@autoclosure]: https://developer.apple.com/swift/blog/?id=4
 
 [Next playground](@next)
 */

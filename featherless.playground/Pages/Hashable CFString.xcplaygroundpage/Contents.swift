@@ -14,6 +14,8 @@ or the slightly more helpful error when attempting to use a Set<CFString>:
     Type 'CFString' does not conform to protocol 'Hashable'
 
 So let's make CFString [Hashable].
+
+[Hashable]: http://swiftdoc.org/v2.0/protocol/Hashable/
 */
 
 import CoreFoundation
@@ -57,7 +59,6 @@ stringSet.contains(barString)
 - We take advantage of [CFHash] to implement the hashValue.
 - The `==` operator is a simple mapping to [CFStringCompare].
 
-[Hashable]: http://swiftdoc.org/v2.0/protocol/Hashable/
 [CFHash]: https://developer.apple.com/library/prerelease/ios/documentation/CoreFoundation/Reference/CFTypeRef/index.html#//apple_ref/c/func/CFHash
 [CFStringCompare]: https://developer.apple.com/library/mac/documentation/CoreFoundation/Reference/CFStringRef/#//apple_ref/c/func/CFStringCompare
 
