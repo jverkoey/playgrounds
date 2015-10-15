@@ -187,4 +187,6 @@ Much to my surprise, observing the logs revealed:
 
 [Dictionary]: http://swiftdoc.org/v2.0/type/Dictionary/
 [@autoclosure]: https://developer.apple.com/swift/blog/?id=4
+
+[Next playground](@next)
 */
