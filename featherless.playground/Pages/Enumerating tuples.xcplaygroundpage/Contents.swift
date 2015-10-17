@@ -62,7 +62,7 @@ for child in mirror.children {
 Rather than create a Mirror every time we want to enumerate a tuple, let's build a helper function that turns tuples into enumerable types.
 */
 
-func generatorForTuple<T>(tuple: T) -> AnyGenerator<Any> {
+func generatorForTuple(tuple: Any) -> AnyGenerator<Any> {
   return anyGenerator(Mirror(reflecting: tuple).children.lazy.map { $0.value }.generate())
 }
 
