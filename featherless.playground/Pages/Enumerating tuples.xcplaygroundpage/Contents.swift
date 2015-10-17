@@ -2,7 +2,7 @@
 
 # Enumerating tuples
 
-> *Cross-posted at [featherless software design](http://design.featherless.software/enumerating-swift-tuples/
+> *Cross-posted at [featherless software design](http://design.featherless.software/enumerating-tuple-values-swift/
 )*.
 
 Consider the following tuple:
