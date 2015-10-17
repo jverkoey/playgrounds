@@ -3,5 +3,6 @@
     <pages>
         <page name='Dictionary get with default'/>
         <page name='Hashable CFString'/>
+        <page name='Enumerating tuples'/>
     </pages>
 </playground>
